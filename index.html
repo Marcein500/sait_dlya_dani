@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт для дани — Официальный сайт</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: #1e1e1e;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+            border: 1px solid #333;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #00adb5;
+        }
+        p {
+            color: #aaa;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 20px 50px;
+            font-size: 22px;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(255, 65, 108, 0.4);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255, 65, 108, 0.6);
+            background: linear-gradient(45deg, #ff4b2b, #ff416c);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Короче оптимизация!</h1>
+        <p>Утилита для полной очистки кэша, оптимизации ОЗУ и поднятия FPS до +40%</p>
+        <!-- Кнопка ведет на скачивание файла из папки static -->
+        <a href="/static/fps_boost.exe" class="download-btn" download>📥 СКАЧАТЬ ОПТИМИЗАТОР</a>
+    </div>
+</body>
+</html>
